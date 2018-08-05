@@ -1,0 +1,9 @@
+apt-get install perl -y
+apt-get install gcc -y
+apt-get install cpan -y
+apt-get update
+cpan force install Parallel::ForkManager
+cpan force install URI::_foreign
+cpan force install LWP
+cpan force install Time::HiRes
+cpan force install HTML::Parser
